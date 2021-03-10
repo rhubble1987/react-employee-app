@@ -15,10 +15,10 @@
     "react-scripts": "4.0.3",
     "web-vitals": "^1.1.0"
   },
-  "homepage": "https://rhubble1987.github.io/react-employee-app/",
+  "homepage": "https://rhubble1987.github.io/react-employee-app",
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+    "deploy": "gh-pages -b main -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
